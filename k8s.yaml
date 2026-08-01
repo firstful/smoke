@@ -1,5 +1,5 @@
 # k3s deployment for smoke — UTC timestamp smoke test
-# Deploy: kubectl apply -f k8s.yaml
+# Deploy: auto via Gitea Actions (rook-runner in-cluster)
 # Uses stock python image + ConfigMap mount (no registry needed).
 # Containerfile exists for the git-ops build path later.
 ---
